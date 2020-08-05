@@ -10,34 +10,30 @@ using System.Windows.Forms;
 
 namespace Phase2App
 {
-    public partial class frmMain : Form
+    public partial class MainForm : Form
     {
-        FormChild childForm;
+        ChildForm childForm = new ChildForm();
 
-        public frmMain()
+        public MainForm()
         {
             InitializeComponent();
             InitItemValue();
-
-           chkIsVisibleChildWnd.Checked = true;
-            childForm = new FormChild();
             SetChildWndColor();
+            SetChildWndSize();
             childForm.Show();
         }
-        
+
+        private void SetChildWndSize()
+        {
+            childForm.Width  = trbChildWndWidth.Value;
+            childForm.Height = trbChildWndHeight.Value;
+        }
+
         //GUIアイテムの初期値設定
         private void InitItemValue()
         {
-            trbChildWndWidth.Maximum    = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width;
-            trbChildWndHeight.Maximum   = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height;
-
-            lblChildWndMoveVal.Text     = trbChildWndMoveVal.Value.ToString();
-            lblChildWndWidth.Text       = trbChildWndWidth.Value.ToString();
-            lblChildWndHeight.Text      = trbChildWndHeight.Value.ToString();
-
-            lblRed.Text                 = trbRed.Value.ToString();
-            lblGreen.Text               = trbGreen.Value.ToString();
-            lblBlue.Text                = trbBlue.Value.ToString();
+            trbChildWndWidth.Maximum    = Screen.PrimaryScreen.Bounds.Width;
+            trbChildWndHeight.Maximum   = Screen.PrimaryScreen.Bounds.Height;
         }
 
         private void SetChildWndColor()
@@ -75,11 +71,6 @@ namespace Phase2App
         //子ウインドウ表示チェックボックス
         private void chkIsVisibleChildWnd_CheckedChanged(object sender, EventArgs e)
         {
-            if( childForm == null)
-            {
-                return;
-            }
-
             if (chkIsVisibleChildWnd.Checked)
             {
                 childForm.Show();
@@ -118,9 +109,16 @@ namespace Phase2App
             {
                 lblGreen.Text = trbGreen.Value.ToString();
             }
-            else
+            else if(sender.Equals(trbBlue)) 
             {
                 lblBlue.Text = trbBlue.Value.ToString();
+            }
+            else
+            {
+                MessageBox.Show("未サポート",
+                                "エラー",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error);
             }
             SetChildWndColor();
         }
