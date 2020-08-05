@@ -1,6 +1,6 @@
 ﻿namespace Phase2App
 {
-    partial class FormChild
+    partial class ChildForm
     {
         /// <summary>
         /// Required designer variable.

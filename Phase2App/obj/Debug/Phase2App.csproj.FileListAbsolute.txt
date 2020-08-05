@@ -6,6 +6,6 @@ C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.csproj.Generate
 C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.csproj.CoreCompileInputs.cache
 C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.exe
 C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.pdb
-C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.frmMain.resources
-C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.FormChild.resources
 C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.csprojAssemblyReference.cache
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.MainForm.resources
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Debug\Phase2App.ChildForm.resources

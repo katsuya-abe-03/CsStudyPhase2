@@ -1,6 +1,6 @@
 ﻿namespace Phase2App
 {
-    partial class frmMain
+    partial class MainForm
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -361,6 +361,8 @@
             // chkIsVisibleChildWnd
             // 
             this.chkIsVisibleChildWnd.AutoSize = true;
+            this.chkIsVisibleChildWnd.Checked = true;
+            this.chkIsVisibleChildWnd.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkIsVisibleChildWnd.Location = new System.Drawing.Point(253, 42);
             this.chkIsVisibleChildWnd.Name = "chkIsVisibleChildWnd";
             this.chkIsVisibleChildWnd.Size = new System.Drawing.Size(129, 19);

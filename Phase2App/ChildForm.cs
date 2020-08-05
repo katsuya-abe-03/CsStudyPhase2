@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Phase2App
 {
-    public partial class FormChild : Form
+    public partial class ChildForm : Form
     {
-        public FormChild()
+        public ChildForm()
         {
             InitializeComponent();
         }
