@@ -1,0 +1,10 @@
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\bin\Release\Phase2App.exe.config
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\bin\Release\Phase2App.exe
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\bin\Release\Phase2App.pdb
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Release\Phase2App.frmMain.resources
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Release\Phase2App.FormChild.resources
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Release\Phase2App.Properties.Resources.resources
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Release\Phase2App.csproj.GenerateResource.cache
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Release\Phase2App.csproj.CoreCompileInputs.cache
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Release\Phase2App.exe
+C:\CsStudy\Phase2App\CsStudyPhase2\Phase2App\obj\Release\Phase2App.pdb
